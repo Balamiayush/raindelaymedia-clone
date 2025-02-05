@@ -1,0 +1,30 @@
+/* @import "tailwindcss"; */
+:root{
+    --font-regular:RhythmRegular;
+    --font-light:RhythmLight;
+    --font-medium:RhythmMedium;
+    --font-bold:RhythmBold;
+}
+@font-face {
+  font-family: "RhythmBold";
+  src: url("./fonts/Aeonik-Bold.ttf");
+}
+@font-face {
+  font-family: "RhythmRegular";
+  src: url("./fonts/Aeonik-Regular.ttf");
+}
+@font-face {
+  font-family: "RhythmLight";
+  src: url("./fonts/Aeonik-Light.ttf");
+}
+@font-face {
+  font-family: "RhythmMedium";
+  src: url("./fonts/Aeonik-Medium.ttf");
+}
+*{
+  font-family: "RhythmRegular";
+  text-decoration: none;
+}
+body{
+  overflow-x: hidden;
+}
