@@ -47,11 +47,21 @@ body{
   transform: translateY(90%);
 }
 @media (max-width: 768px) {
-  .navbar{
-    /* bottom: 0; */
-    top: 100%;
-    /* transform: translateY(100%); */
+  .page2-section1 h1 {
+    font-size: 4rem;
   }
-
-
+  .page2-section1 p {
+    font-size: 1rem;
+  }
+  .page2-section2 h1{
+    font-size: 4rem;
+  }
+  .menubar{
+    width: 30vw;
+  }
+  .navbar-container{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }

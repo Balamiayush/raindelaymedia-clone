@@ -22,7 +22,7 @@ const Nav = () => {
   };
 
   return (
-    <div className="w-full    flex items-center  justify-between relative  ">
+    <div className="    flex items-center  justify-between relative  ">
       <motion.div
         variants={variants}
         initial="closed"
@@ -81,7 +81,7 @@ const Nav = () => {
       </motion.div>
 
       {/* Logo */}
-      <div className="w-full px-10 py-5 flex items-center justify-between gap-5">
+      <div className="w-full px-10 py-5 flex items-center justify-between gap-5 navbar-container">
         <div className="logo w-20">
           <img src={logo} alt="logo" />
         </div>
