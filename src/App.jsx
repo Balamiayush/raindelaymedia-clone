@@ -38,7 +38,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className='w-full   bg-[#EDECF1] relative '>
+    <div className='w-full    bg-[#EDECF1] relative '>
       <Page1/>
     </div>
   );
